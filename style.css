@@ -1,0 +1,155 @@
+@keyframes bouton_g {
+    from {
+        font-size:20pt;
+    }
+    to {
+        font-size : 2pt ;
+    }
+}
+p {
+    color : grey ;
+}
+img {
+    width : 10em ;
+    height: 10em;
+}
+li,a {
+    list-style: none;
+    text-decoration : none ;
+}
+a:visited {
+    color : black ;
+}
+
+body {
+    
+    margin-right : auto ;
+    margin-left : auto ;
+}
+h1{
+    font-family : roboto ;
+    color:white;
+    font-size : 46pt;
+    width: 100%;
+    text-align: center;
+    margin-bottom:7em;
+}
+
+.bloc_titre {
+    padding: 20em;
+    padding-top:10em;
+    background-color:#1e90ff;
+    height: 5em;
+    border-radius:0.5em;
+}
+
+.bloc_titre ul {
+    display : flex;
+    align-items: space-around;
+    justify-content : space-between ;
+}
+
+.bloc_titre input {
+    padding :1em;
+    background-color:white;
+    font-size:20pt;
+    border-radius:0.3em;
+    margin-bottom:2em;
+}
+
+.bloc_titre input:hover{
+    background-color:#1e90ff;
+    font-size:21pt;
+    color : white ;
+}
+
+/* page pro */
+.pro h1 {
+    color : blue ;
+    margin : 5px ;
+    padding : 0px ;
+    font-size:25pt;
+}
+.pro h2 {
+    font-size:20pt ;
+    font-weight: 300;
+    border-top : solid #F5F5F5 1px ;
+    color : #4169E1 ;
+}
+.pro p{
+    margin : 0px ;
+    margin-bottom : 2em;
+}
+.continfo {
+    display : flex ;
+    flex-wrap : wrap ;
+    flex-direction: column;
+    margin-right :3em ;
+    padding : 1em ;
+    height : 100%;
+    background-color:#F8F8FF;
+}
+.continfo ul {
+    padding : 0em ;
+}
+
+.pro {
+    padding : 15px;
+    border-top : solid 20px #1e90ff ;
+    border-bottom : solid 20px #1e90ff ;
+    border-right:solid #C0C0C0 1px ;
+    border-left:solid #C0C0C0 1px ;
+    width: 75%;
+    display : flex ;
+    flex-direction : row ;
+    flex-wrap : wrap ;
+    font-family : ubuntu ;
+}
+
+article .titres {
+    display : flex ;
+    flex-direction: row ;
+    align-self: center ;
+    justify-content: space-between;
+}
+
+article {
+    width: 70%;
+}
+.pro:last-child {
+    align-self: flex-end;
+}
+
+article h3 {
+    margin-top : 0px ;
+}
+.compet div {
+    display : flex ;
+    flex-direction: row;
+    
+}
+.compet {
+    display : flex ;
+    flex-direction: row ;
+    justify-content: space-between;
+}
+/* lib font awesome */
+#fa {
+    color : blue ;
+}
+#html {
+    color : orange ;
+    font-size : 35px;
+}
+#css {
+    color : blue ;
+    font-size : 35px ;
+}
+#js  {
+    font-size : 35px;
+    color : yellow ;
+}
+.compet span {
+    color : grey ;
+    margin : 2px ;
+}
