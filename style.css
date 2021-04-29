@@ -9,58 +9,38 @@ li,a {
 a:visited {
     color : black ;
 }
-
-.main {
-    background-image: url("assets/eren_mer2.jpg") ;
-    margin-right : auto ;
-    margin-left : auto ;
-    
+body {
+    background-color: #F8F8FF;
+    font-family : raleway ;
 }
-h1{
-    margin-top : 5em;
-    font-family : roboto ;
-    color:white;
-    font-size : 42pt;
-    width: 100%;
-    text-align: center;
-    
+nav ul{
+    display : flex ;
+    font-size : 17pt ;
+    padding-left : 0px ;
 }
-
-.bloc_titre {
-    
-    border-radius:0.5em;
+nav li {
+    margin-right : 1.5em ;
+    font-family : raleway ;
 }
-
-.bloc_titre ul {
-    margin-top : 27em;
-    display : flex;
-    justify-content : space-around ;
+nav li:hover {
+    border-bottom : black solid 1px;
+    font-weight:bolder;
 }
-
-.bloc_titre input {
-    padding :1em;
-    background-color:white;
-    font-size : 15pt;
-    border-radius:0.3em;
-    margin-top: 1em;
-    margin-bottom : 2em;
+.index h1 {
+    font-size : 64pt ;
 }
-
-.bloc_titre input:hover{
-    background-color:#1e90ff;
-    color : white ;
-}
-
+ 
 /* page pro */
 .pro h1 {
-    color : blue ;
+    color : #778899 ;
     margin : 5px ;
     padding : 0px ;
     font-size:25pt;
     font-weight : 800;
-    font-family: ubuntu;
+    width: 100%;
 }
 .pro h2 {
+    font-family: raleway;
     font-size:20pt ;
     font-weight: 300;
     padding-top : 10px;
@@ -81,7 +61,7 @@ h1{
     margin-right :3em ;
     padding : 1em ;
     height : 100%;
-    background-color:#F8F8FF;
+    background-color:#f5f5f0;
     border: solid 2px #F5F5F5; 
 }
 .continfo ul {
@@ -177,3 +157,42 @@ article ul {
     color : #1e90ff ;
     margin:5px;
 }
+
+#banner {
+    animation: monAnimation 2s;
+}
+ 
+@keyframes monAnimation {
+    from {position : relative ;
+    left : 500px}
+    to {left : -500px ;}
+}
+
+#animegd {
+    animation : animegd 2s ;
+}
+@keyframes animegd {
+    from {position: relative ;
+        right : 500px }
+        to {right : -500px ;}
+}
+.bloc p{
+    font-size:18pt;
+    width: 40em;
+    padding : 1em ;
+    font-weight:bolder;
+    text-align: left;
+    position : absolute ;
+    right: 0;
+    border-bottom : solid red 3px ;
+}
+
+#triangle-code{
+    display : inline-block;
+    position : absolute;
+    right : 0 ;
+    top : 0 ;
+    border-top : 250px solid red;
+    border-left : 250px solid transparent;
+   }
+  
