@@ -2,34 +2,83 @@ img {
     width : 10em ;
     height: 10em;
 }
-li,a {
-    list-style: none;
+a{
     text-decoration : none ;
+}
+li {
+    list-style: none;
 }
 a:visited {
     color : black ;
 }
-body {
-    background-color: #F8F8FF;
+/* index */
+.index {
     font-family : raleway ;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
-nav ul{
+.index nav ul{
+    justify-content: center;
     display : flex ;
-    font-size : 17pt ;
-    padding-left : 0px ;
+    padding-left : 0px ;  
 }
-nav li {
+.index li a{
+    font-size:15pt;
     margin-right : 1.5em ;
-    font-family : raleway ;
+    font-weight: bolder;
+}
+nav {
+    display : flex ;
+    flex-direction: row;
+    justify-content: space-between;
 }
 nav li:hover {
     border-bottom : black solid 1px;
     font-weight:bolder;
 }
-.index h1 {
-    font-size : 64pt ;
+.bloc {
+    margin-top:100px;
+    display : flex ;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
 }
- 
+.bloc p{
+    font-size:18pt;
+    font-weight:bolder; 
+    font-size:12pt;
+
+}
+.bloc h1 {
+    font-weight: bolder;
+}
+.bloc img {
+    width: 500px;
+    height: 300px;
+    width: 30%;
+}
+.bloc :first-child {
+    margin-right:40px;
+}
+.bloc .textbloc {
+    width: 50%;
+}
+.doublel {
+    display: flex;
+    justify-content: space-between;
+}
+.doublel ul{
+    padding-left: 0px;
+}
+.doublel li {
+    margin-top: 20px;
+    font-size: 12pt;
+    font-weight: 700;
+}
+.doublel :nth-child(2){
+    color : grey ;
+}
 /* page pro */
 .pro h1 {
     color : #778899 ;
@@ -168,31 +217,9 @@ article ul {
     to {left : -500px ;}
 }
 
-#animegd {
-    animation : animegd 2s ;
-}
 @keyframes animegd {
     from {position: relative ;
         right : 500px }
         to {right : -500px ;}
 }
-.bloc p{
-    font-size:18pt;
-    width: 40em;
-    padding : 1em ;
-    font-weight:bolder;
-    text-align: left;
-    position : absolute ;
-    right: 0;
-    border-bottom : solid red 3px ;
-}
 
-#triangle-code{
-    display : inline-block;
-    position : absolute;
-    right : 0 ;
-    top : 0 ;
-    border-top : 250px solid red;
-    border-left : 250px solid transparent;
-   }
-  
